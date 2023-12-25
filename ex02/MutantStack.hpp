@@ -67,22 +67,22 @@ public:
 		return this->c.rend();
 	}
 
-	iterator cbegin(void)
+	const_iterator cbegin(void)
 	{
 		return this->c.cbegin();
 	}
 
-	iterator cend(void)
+	const_iterator cend(void)
 	{
 		return this->c.cend();
 	}
 
-	iterator crbegin(void)
+	const_reverse_iterator crbegin(void)
 	{
 		return this->c.crbegin();
 	}
 
-	iterator crend(void)
+	const_reverse_iterator crend(void)
 	{
 		return this->c.crend();
 	}
